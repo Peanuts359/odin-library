@@ -1,0 +1,36 @@
+@font-face {
+    font-family: main;
+    src: url(assets/LilitaOne-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    font-family: main, Arial, Helvetica, sans-serif;
+}
+
+.header {
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    position: relative;
+    padding: 0rem 3rem 0rem 4rem;
+    box-shadow: 4px 4px 6px 2px rgb(219, 220, 220);
+}
+
+.header > h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+
